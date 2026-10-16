@@ -1,0 +1,11 @@
+Lets create a new plugin ->
+
+Admin Walkthrough Builder	Uma ferramenta simples para criar tutoriais interativos passo a passo (guias flutuantes) dentro do painel do WordPress para treinar clientes que não sabem mexer no site.	Reduz o suporte pós-entrega de projetos.
+
+i need it to be easy to do the tutoriais and for them to be custom, so that users that created it can define for whom they want that walk trough tutorial to be displayed to and also if they want to enable replays, also for the user that got the tutorial, a replay for days later if they wanna remember som, and also a skip so that they can go to the next step so its easier to get to the point they want and a bar with all steps and also like yt videos with a little description of that group of steps and i want that bar to be on top or som so its easier to skip as well etc..
+after they finish apply the plugin to the dev site plugins, then i want you to build all the files needed, takes screenshots of the plugin and place them on a folder named prints and then apply them to the README.md and readme.txt
+the design of the interface of our plugin is horrendos.
+Also needs to be more intuitive.
+like be able to add the steps trought the page like a floating menu taht the user can start going to our walktroughs and enable it to create a walk torugh and the floating menu appears, then its easier, click to create somenthing, move around, set buuble text thingies to be easier etc....
+
+i clicked to BUILD AND nothing happend..

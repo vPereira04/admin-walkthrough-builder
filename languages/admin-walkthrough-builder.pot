@@ -1,0 +1,1503 @@
+# Copyright (C) 2026 Victor Pereira
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Walkthrough Builder 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/admin-walkthrough-builder\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-16T15:44:07+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: admin-walkthrough-builder\n"
+
+#. Plugin Name of the plugin
+#: admin-walkthrough-builder.php
+msgid "Admin Walkthrough Builder"
+msgstr ""
+
+#. Description of the plugin
+#: admin-walkthrough-builder.php
+msgid "Build step-by-step guided tours inside wp-admin so you can train clients right where they work."
+msgstr ""
+
+#. Author of the plugin
+#: admin-walkthrough-builder.php
+msgid "Victor Pereira"
+msgstr ""
+
+#: includes/class-awb-admin.php:65
+#: includes/class-awb-admin.php:66
+#: includes/class-awb-admin.php:75
+#: includes/class-awb-admin.php:141
+#: includes/class-awb-admin.php:421
+#: includes/class-awb-tours.php:71
+msgid "Walkthroughs"
+msgstr ""
+
+#: includes/class-awb-admin.php:76
+#: includes/class-awb-player.php:267
+msgid "All walkthroughs"
+msgstr ""
+
+#: includes/class-awb-admin.php:84
+#: includes/class-awb-admin.php:85
+msgid "Edit walkthrough"
+msgstr ""
+
+#: includes/class-awb-admin.php:228
+msgid "Sorry, you are not allowed to manage walkthroughs."
+msgstr ""
+
+#: includes/class-awb-admin.php:248
+msgid "That walkthrough doesn’t exist any more."
+msgstr ""
+
+#. translators: %s: walkthrough title.
+#: includes/class-awb-admin.php:290
+#, php-format
+msgid "%s (copy)"
+msgstr ""
+
+#: includes/class-awb-admin.php:390
+msgid "Walkthrough duplicated. The copy is a draft."
+msgstr ""
+
+#: includes/class-awb-admin.php:391
+msgid "Walkthrough deleted."
+msgstr ""
+
+#: includes/class-awb-admin.php:392
+msgid "Walkthrough imported as a draft. Pick who sees it before setting it live."
+msgstr ""
+
+#: includes/class-awb-admin.php:393
+msgid "That file couldn’t be imported. Choose a .json file exported from Walkthroughs (1 MB max)."
+msgstr ""
+
+#: includes/class-awb-admin.php:394
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-awb-admin.php:422
+msgid "Create walkthrough"
+msgstr ""
+
+#. translators: %s: walkthrough title.
+#: includes/class-awb-admin.php:457
+#, php-format
+msgid "Delete ‘%s’ permanently? Everyone’s progress in it is deleted too. This can’t be undone."
+msgstr ""
+
+#: includes/class-awb-admin.php:467
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/class-awb-admin.php:468
+#: includes/class-awb-player.php:479
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-awb-admin.php:481
+msgid "Show your clients around wp-admin"
+msgstr ""
+
+#: includes/class-awb-admin.php:482
+msgid "Build a guided tour once and the people you pick get it step by step, right on the screens they use."
+msgstr ""
+
+#: includes/class-awb-admin.php:483
+msgid "How it works"
+msgstr ""
+
+#: includes/class-awb-admin.php:485
+msgid "Create"
+msgstr ""
+
+#: includes/class-awb-admin.php:485
+msgid "a walkthrough and split it into chapters."
+msgstr ""
+
+#: includes/class-awb-admin.php:486
+msgid "Click elements"
+msgstr ""
+
+#: includes/class-awb-admin.php:486
+msgid "on any screen to add a step about each one."
+msgstr ""
+
+#: includes/class-awb-admin.php:487
+msgid "Pick who sees it"
+msgstr ""
+
+#: includes/class-awb-admin.php:487
+msgid "by role or by person, and set it live."
+msgstr ""
+
+#: includes/class-awb-admin.php:489
+msgid "Create your first walkthrough"
+msgstr ""
+
+#: includes/class-awb-admin.php:505
+#: includes/class-awb-admin.php:1125
+msgid "Title"
+msgstr ""
+
+#: includes/class-awb-admin.php:506
+#: includes/class-awb-admin.php:787
+#: includes/class-awb-admin.php:1149
+msgid "Status"
+msgstr ""
+
+#: includes/class-awb-admin.php:507
+#: includes/class-awb-admin.php:666
+#: includes/class-awb-player.php:346
+msgid "Steps"
+msgstr ""
+
+#: includes/class-awb-admin.php:508
+#: includes/class-awb-admin.php:1172
+#: includes/class-awb-player.php:516
+msgid "Who sees it"
+msgstr ""
+
+#: includes/class-awb-admin.php:509
+msgid "Progress"
+msgstr ""
+
+#: includes/class-awb-admin.php:510
+msgid "Updated"
+msgstr ""
+
+#. translators: %s: number of people.
+#: includes/class-awb-admin.php:542
+#, php-format
+msgid "%s person"
+msgid_plural "%s people"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-awb-admin.php:555
+#: includes/class-awb-player.php:229
+msgid "Build"
+msgstr ""
+
+#: includes/class-awb-admin.php:556
+#: includes/class-awb-admin.php:1110
+msgid "Edit"
+msgstr ""
+
+#: includes/class-awb-admin.php:559
+#: includes/class-awb-admin.php:561
+#: includes/class-awb-admin.php:1152
+#: includes/class-awb-player.php:377
+#: includes/class-awb-player.php:438
+msgid "Preview"
+msgstr ""
+
+#: includes/class-awb-admin.php:561
+msgid "Add a step first"
+msgstr ""
+
+#: includes/class-awb-admin.php:564
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-awb-admin.php:565
+msgid "Export"
+msgstr ""
+
+#: includes/class-awb-admin.php:566
+#: includes/class-awb-admin.php:1116
+#: includes/class-awb-player.php:503
+msgid "Delete"
+msgstr ""
+
+#: includes/class-awb-admin.php:571
+#: includes/class-awb-admin.php:1151
+#: includes/class-awb-player.php:256
+#: includes/class-awb-player.php:431
+msgid "Live"
+msgstr ""
+
+#: includes/class-awb-admin.php:571
+#: includes/class-awb-admin.php:1150
+#: includes/class-awb-player.php:256
+#: includes/class-awb-player.php:430
+msgid "Draft"
+msgstr ""
+
+#. translators: 1: step count text, 2: chapter count text.
+#: includes/class-awb-admin.php:579
+#, php-format
+msgid "%1$s · %2$s"
+msgstr ""
+
+#. translators: %s: number of steps.
+#: includes/class-awb-admin.php:581
+#, php-format
+msgid "%s step"
+msgid_plural "%s steps"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: number of chapters.
+#: includes/class-awb-admin.php:583
+#, php-format
+msgid "%s chapter"
+msgid_plural "%s chapters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-awb-admin.php:592
+msgid "Nobody yet"
+msgstr ""
+
+#. translators: 1: people who finished, 2: people who see the walkthrough.
+#: includes/class-awb-admin.php:600
+#, php-format
+msgid "%1$s of %2$s finished"
+msgstr ""
+
+#. translators: %s: time since, e.g. "3 hours".
+#: includes/class-awb-admin.php:612
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-awb-admin.php:631
+msgid "Import a walkthrough"
+msgstr ""
+
+#: includes/class-awb-admin.php:635
+msgid "Walkthrough file (.json)"
+msgstr ""
+
+#: includes/class-awb-admin.php:637
+msgid "Import"
+msgstr ""
+
+#: includes/class-awb-admin.php:638
+msgid "It comes in as a draft. Specific people aren’t carried over from the other site."
+msgstr ""
+
+#: includes/class-awb-admin.php:657
+msgid "Walkthrough not found"
+msgstr ""
+
+#: includes/class-awb-admin.php:658
+#: includes/class-awb-admin.php:671
+msgid "← All walkthroughs"
+msgstr ""
+
+#: includes/class-awb-admin.php:667
+msgid "People"
+msgstr ""
+
+#: includes/class-awb-admin.php:674
+#: includes/class-awb-player.php:420
+msgid "Open the builder"
+msgstr ""
+
+#: includes/class-awb-admin.php:675
+msgid "Add and edit steps right on your wp-admin screens."
+msgstr ""
+
+#: includes/class-awb-admin.php:679
+msgid "Walkthrough sections"
+msgstr ""
+
+#: includes/class-awb-admin.php:693
+msgid "Loading the editor…"
+msgstr ""
+
+#: includes/class-awb-admin.php:694
+msgid "The walkthrough editor needs JavaScript turned on."
+msgstr ""
+
+#: includes/class-awb-admin.php:751
+msgid "This walkthrough is a draft, so nobody gets it yet."
+msgstr ""
+
+#: includes/class-awb-admin.php:755
+msgid "Nobody is picked yet. Choose roles or specific people under “Who sees it” on the Steps tab."
+msgstr ""
+
+#. translators: %s: number of people.
+#: includes/class-awb-admin.php:761
+#, php-format
+msgid "Finished: %s"
+msgstr ""
+
+#. translators: %s: number of people.
+#: includes/class-awb-admin.php:767
+#, php-format
+msgid "In progress: %s"
+msgstr ""
+
+#. translators: %s: number of people.
+#: includes/class-awb-admin.php:773
+#, php-format
+msgid "Not started: %s"
+msgstr ""
+
+#: includes/class-awb-admin.php:779
+msgid "Reset everyone"
+msgstr ""
+
+#: includes/class-awb-admin.php:785
+msgid "Person"
+msgstr ""
+
+#: includes/class-awb-admin.php:786
+msgid "Role"
+msgstr ""
+
+#: includes/class-awb-admin.php:788
+msgid "Actions"
+msgstr ""
+
+#: includes/class-awb-admin.php:812
+msgid "Reset"
+msgstr ""
+
+#. translators: %s: maximum number of people listed.
+#: includes/class-awb-admin.php:823
+#, php-format
+msgid "Showing the first %s people."
+msgstr ""
+
+#: includes/class-awb-admin.php:845
+msgid "Not started"
+msgstr ""
+
+#. translators: %s: date of the reminder.
+#: includes/class-awb-admin.php:854
+#, php-format
+msgid "Reminder on %s"
+msgstr ""
+
+#. translators: %s: date they finished.
+#: includes/class-awb-admin.php:861
+#, php-format
+msgid "Finished %s"
+msgstr ""
+
+#: includes/class-awb-admin.php:868
+msgid "Closed"
+msgstr ""
+
+#. translators: 1: current step number, 2: total steps.
+#: includes/class-awb-admin.php:878
+#, php-format
+msgid "In progress (step %1$d of %2$d)"
+msgstr ""
+
+#: includes/class-awb-admin.php:879
+msgid "In progress"
+msgstr ""
+
+#: includes/class-awb-admin.php:1067
+#: includes/class-awb-admin.php:1068
+#: includes/class-awb-player.php:427
+msgid "Walkthrough title"
+msgstr ""
+
+#: includes/class-awb-admin.php:1069
+msgid "Description"
+msgstr ""
+
+#: includes/class-awb-admin.php:1070
+msgid "A short description: what will people learn?"
+msgstr ""
+
+#: includes/class-awb-admin.php:1071
+msgid "Shown in the Guides menu and when the walkthrough starts. Keep it short."
+msgstr ""
+
+#: includes/class-awb-admin.php:1072
+msgid "Add chapter"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1074
+#: includes/class-awb-admin.php:1094
+#: includes/class-awb-player.php:446
+#, php-format
+msgid "Chapter %d"
+msgstr ""
+
+#: includes/class-awb-admin.php:1075
+#: includes/class-awb-player.php:448
+msgid "Chapter title"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1077
+#, php-format
+msgid "Chapter %d title"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1079
+#, php-format
+msgid "Move chapter %d up"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1081
+#, php-format
+msgid "Move chapter %d down"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1083
+#, php-format
+msgid "Delete chapter %d"
+msgstr ""
+
+#: includes/class-awb-admin.php:1084
+msgid "A walkthrough needs at least one chapter"
+msgstr ""
+
+#: includes/class-awb-admin.php:1085
+#: includes/class-awb-player.php:449
+msgid "What this chapter covers (optional)"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1087
+#, php-format
+msgid "Chapter %d description"
+msgstr ""
+
+#: includes/class-awb-admin.php:1088
+msgid "Shown when people hover this chapter in the progress bar"
+msgstr ""
+
+#. translators: %d: chapter number.
+#: includes/class-awb-admin.php:1090
+#, php-format
+msgid "Chapter %d steps"
+msgstr ""
+
+#: includes/class-awb-admin.php:1091
+msgid "No steps yet — add some on a screen"
+msgstr ""
+
+#: includes/class-awb-admin.php:1092
+msgid "Add steps on a screen…"
+msgstr ""
+
+#: includes/class-awb-admin.php:1095
+#: includes/class-awb-tours.php:700
+msgid "Getting started"
+msgstr ""
+
+#: includes/class-awb-admin.php:1096
+#: includes/class-awb-player.php:447
+msgid "Untitled chapter"
+msgstr ""
+
+#: includes/class-awb-admin.php:1097
+msgid "Chapter added."
+msgstr ""
+
+#. translators: %d: new position of the chapter.
+#: includes/class-awb-admin.php:1099
+#, php-format
+msgid "Chapter moved to position %d."
+msgstr ""
+
+#. translators: 1: title of the chapter being deleted, 2: title of the chapter its steps move to.
+#: includes/class-awb-admin.php:1101
+#, php-format
+msgid "Delete the chapter “%1$s”? Its steps will move to “%2$s”."
+msgstr ""
+
+#. translators: %s: chapter title.
+#: includes/class-awb-admin.php:1103
+#, php-format
+msgid "Delete the chapter “%s”?"
+msgstr ""
+
+#: includes/class-awb-admin.php:1104
+msgid "Chapter deleted."
+msgstr ""
+
+#: includes/class-awb-admin.php:1105
+#: includes/class-awb-player.php:467
+msgid "Drag to reorder"
+msgstr ""
+
+#. translators: %d: step number.
+#: includes/class-awb-admin.php:1107
+#, php-format
+msgid "Move step %d up"
+msgstr ""
+
+#. translators: %d: step number.
+#: includes/class-awb-admin.php:1109
+#, php-format
+msgid "Move step %d down"
+msgstr ""
+
+#. translators: %d: step number.
+#: includes/class-awb-admin.php:1112
+#, php-format
+msgid "Edit step %d"
+msgstr ""
+
+#: includes/class-awb-admin.php:1113
+msgid "Show on screen"
+msgstr ""
+
+#. translators: %d: step number.
+#: includes/class-awb-admin.php:1115
+#, php-format
+msgid "Show on screen: step %d"
+msgstr ""
+
+#. translators: %d: step number.
+#: includes/class-awb-admin.php:1118
+#, php-format
+msgid "Delete step %d"
+msgstr ""
+
+#: includes/class-awb-admin.php:1119
+#: includes/class-awb-player.php:372
+#: includes/class-awb-player.php:462
+msgid "Untitled step"
+msgstr ""
+
+#. translators: 1: screen name, 2: label of the highlighted element.
+#: includes/class-awb-admin.php:1121
+#, php-format
+msgid "%1$s · “%2$s”"
+msgstr ""
+
+#: includes/class-awb-admin.php:1122
+msgid "Element"
+msgstr ""
+
+#: includes/class-awb-admin.php:1123
+#: includes/class-awb-player.php:507
+msgid "Floating"
+msgstr ""
+
+#: includes/class-awb-admin.php:1124
+msgid "Click to continue"
+msgstr ""
+
+#: includes/class-awb-admin.php:1126
+msgid "Text"
+msgstr ""
+
+#: includes/class-awb-admin.php:1127
+#: includes/class-awb-player.php:485
+msgid "Formatting"
+msgstr ""
+
+#: includes/class-awb-admin.php:1128
+#: includes/class-awb-player.php:486
+msgid "Bold"
+msgstr ""
+
+#: includes/class-awb-admin.php:1129
+#: includes/class-awb-player.php:487
+msgid "Italic"
+msgstr ""
+
+#: includes/class-awb-admin.php:1130
+#: includes/class-awb-player.php:488
+msgid "Link"
+msgstr ""
+
+#: includes/class-awb-admin.php:1131
+#: includes/class-awb-player.php:489
+msgid "Link address (URL)"
+msgstr ""
+
+#: includes/class-awb-admin.php:1132
+msgid "Where the popup appears"
+msgstr ""
+
+#: includes/class-awb-admin.php:1133
+#: includes/class-awb-player.php:492
+msgid "Auto"
+msgstr ""
+
+#: includes/class-awb-admin.php:1134
+#: includes/class-awb-admin.php:1205
+#: includes/class-awb-player.php:538
+msgid "Top"
+msgstr ""
+
+#: includes/class-awb-admin.php:1135
+#: includes/class-awb-admin.php:1206
+#: includes/class-awb-player.php:539
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-awb-admin.php:1136
+#: includes/class-awb-player.php:496
+msgid "Left"
+msgstr ""
+
+#: includes/class-awb-admin.php:1137
+#: includes/class-awb-player.php:494
+msgid "Right"
+msgstr ""
+
+#: includes/class-awb-admin.php:1138
+msgid "Moves on when"
+msgstr ""
+
+#: includes/class-awb-admin.php:1139
+msgid "They press Next"
+msgstr ""
+
+#: includes/class-awb-admin.php:1140
+msgid "They click the highlighted element"
+msgstr ""
+
+#: includes/class-awb-admin.php:1141
+msgid "Floating step: it shows in the middle of the screen with a Next button."
+msgstr ""
+
+#: includes/class-awb-admin.php:1142
+#: includes/class-awb-player.php:370
+#: includes/class-awb-player.php:423
+msgid "Done"
+msgstr ""
+
+#. translators: 1: new position of the step, 2: chapter title.
+#: includes/class-awb-admin.php:1144
+#, php-format
+msgid "Step moved to position %1$d in “%2$s”."
+msgstr ""
+
+#. translators: %s: step title.
+#: includes/class-awb-admin.php:1146
+#, php-format
+msgid "Delete the step “%s”?"
+msgstr ""
+
+#: includes/class-awb-admin.php:1147
+#: includes/class-awb-player.php:504
+msgid "Step deleted."
+msgstr ""
+
+#: includes/class-awb-admin.php:1148
+msgid "Publish"
+msgstr ""
+
+#: includes/class-awb-admin.php:1153
+#: includes/class-awb-player.php:439
+msgid "Add a step to preview it"
+msgstr ""
+
+#: includes/class-awb-admin.php:1154
+msgid "Save"
+msgstr ""
+
+#: includes/class-awb-admin.php:1155
+#: includes/class-awb-player.php:540
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-awb-admin.php:1156
+msgid "Unsaved changes"
+msgstr ""
+
+#: includes/class-awb-admin.php:1157
+#: includes/class-awb-player.php:541
+msgid "Saved ✓"
+msgstr ""
+
+#. translators: %d: number of steps (1).
+#. translators: %d: number of steps (always 1).
+#: includes/class-awb-admin.php:1159
+#: includes/class-awb-player.php:365
+#: includes/class-awb-player.php:471
+#, php-format
+msgid "%d step"
+msgstr ""
+
+#. translators: %d: number of steps.
+#: includes/class-awb-admin.php:1161
+#: includes/class-awb-player.php:367
+#: includes/class-awb-player.php:473
+#, php-format
+msgid "%d steps"
+msgstr ""
+
+#. translators: %d: number of chapters (1).
+#: includes/class-awb-admin.php:1163
+#, php-format
+msgid "%d chapter"
+msgstr ""
+
+#. translators: %d: number of chapters.
+#: includes/class-awb-admin.php:1165
+#, php-format
+msgid "%d chapters"
+msgstr ""
+
+#: includes/class-awb-admin.php:1166
+msgid "Couldn’t reach the server, so nothing was saved. Check your connection and try again."
+msgstr ""
+
+#. translators: %s: error message from the server.
+#: includes/class-awb-admin.php:1168
+#, php-format
+msgid "Couldn’t save the walkthrough: %s"
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: includes/class-awb-admin.php:1170
+#: includes/class-awb-player.php:547
+#, php-format
+msgid "error %d"
+msgstr ""
+
+#: includes/class-awb-admin.php:1171
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/class-awb-admin.php:1173
+#: includes/class-awb-player.php:517
+msgid "Roles"
+msgstr ""
+
+#: includes/class-awb-admin.php:1174
+#: includes/class-awb-player.php:518
+msgid "Specific people"
+msgstr ""
+
+#: includes/class-awb-admin.php:1175
+#: includes/class-awb-player.php:519
+msgid "Search by name or email…"
+msgstr ""
+
+#: includes/class-awb-admin.php:1176
+msgid "Matching people"
+msgstr ""
+
+#: includes/class-awb-admin.php:1177
+msgid "Selected people"
+msgstr ""
+
+#: includes/class-awb-admin.php:1178
+#: includes/class-awb-player.php:520
+msgid "Searching…"
+msgstr ""
+
+#. translators: %d: number of people found (1).
+#: includes/class-awb-admin.php:1180
+#, php-format
+msgid "%d person found"
+msgstr ""
+
+#. translators: %d: number of people found.
+#: includes/class-awb-admin.php:1182
+#, php-format
+msgid "%d people found"
+msgstr ""
+
+#: includes/class-awb-admin.php:1183
+#: includes/class-awb-player.php:521
+msgid "No people found."
+msgstr ""
+
+#: includes/class-awb-admin.php:1184
+msgid "Couldn’t reach the server to search."
+msgstr ""
+
+#. translators: %s: error message from the server.
+#: includes/class-awb-admin.php:1186
+#: includes/class-awb-player.php:523
+#, php-format
+msgid "Search failed: %s"
+msgstr ""
+
+#. translators: %s: person's name.
+#: includes/class-awb-admin.php:1188
+#, php-format
+msgid "%s added."
+msgstr ""
+
+#. translators: %s: person's name.
+#: includes/class-awb-admin.php:1190
+#, php-format
+msgid "%s removed."
+msgstr ""
+
+#. translators: %s: person's name.
+#: includes/class-awb-admin.php:1192
+#: includes/class-awb-player.php:525
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#. translators: %d: user ID.
+#: includes/class-awb-admin.php:1194
+#: includes/class-awb-player.php:527
+#, php-format
+msgid "User #%d"
+msgstr ""
+
+#: includes/class-awb-admin.php:1195
+msgid "Nobody will see this walkthrough yet."
+msgstr ""
+
+#: includes/class-awb-admin.php:1196
+#: includes/class-awb-player.php:529
+msgid "Behaviour"
+msgstr ""
+
+#: includes/class-awb-admin.php:1197
+#: includes/class-awb-player.php:530
+msgid "Start automatically the first time they open the first screen"
+msgstr ""
+
+#: includes/class-awb-admin.php:1198
+#: includes/class-awb-player.php:531
+msgid "Let them skip ahead"
+msgstr ""
+
+#: includes/class-awb-admin.php:1199
+#: includes/class-awb-player.php:532
+msgid "Let them close it"
+msgstr ""
+
+#: includes/class-awb-admin.php:1200
+#: includes/class-awb-player.php:533
+msgid "Allow replays"
+msgstr ""
+
+#: includes/class-awb-admin.php:1201
+#: includes/class-awb-player.php:534
+msgid "Offer a refresher after"
+msgstr ""
+
+#: includes/class-awb-admin.php:1202
+#: includes/class-awb-player.php:535
+msgid "days"
+msgstr ""
+
+#: includes/class-awb-admin.php:1203
+#: includes/class-awb-player.php:536
+msgid "0 = never. Needs replays turned on."
+msgstr ""
+
+#: includes/class-awb-admin.php:1204
+#: includes/class-awb-player.php:537
+msgid "Progress bar position"
+msgstr ""
+
+#: includes/class-awb-admin.php:1207
+msgid "Add steps on a screen"
+msgstr ""
+
+#. translators: %s: chapter title.
+#: includes/class-awb-admin.php:1209
+#, php-format
+msgid "Pick the screen where these steps happen. It opens in build mode, and the steps you add there go into “%s”."
+msgstr ""
+
+#: includes/class-awb-admin.php:1210
+#: includes/class-awb-player.php:392
+#: includes/class-awb-player.php:506
+msgid "Close"
+msgstr ""
+
+#: includes/class-awb-admin.php:1211
+msgid "Search screens"
+msgstr ""
+
+#: includes/class-awb-admin.php:1212
+#: includes/class-awb-player.php:475
+msgid "Search screens…"
+msgstr ""
+
+#: includes/class-awb-admin.php:1213
+msgid "Other"
+msgstr ""
+
+#: includes/class-awb-admin.php:1214
+#: includes/class-awb-player.php:476
+msgid "No screens match your search."
+msgstr ""
+
+#: includes/class-awb-admin.php:1215
+msgid "or paste a wp-admin URL"
+msgstr ""
+
+#: includes/class-awb-admin.php:1216
+msgid "Open"
+msgstr ""
+
+#: includes/class-awb-admin.php:1217
+msgid "Paste a wp-admin URL first."
+msgstr ""
+
+#: includes/class-awb-admin.php:1218
+msgid "That doesn’t look like a valid URL."
+msgstr ""
+
+#: includes/class-awb-admin.php:1219
+msgid "That URL isn’t in this site’s wp-admin."
+msgstr ""
+
+#: includes/class-awb-admin.php:1220
+msgid "Reset this person’s progress? They’ll start this walkthrough from the beginning next time."
+msgstr ""
+
+#: includes/class-awb-admin.php:1221
+msgid "Reset everyone’s progress? Everybody will start this walkthrough from the beginning next time."
+msgstr ""
+
+#: includes/class-awb-admin.php:1222
+msgid "Couldn’t reach the server, so nothing was reset. Check your connection and try again."
+msgstr ""
+
+#. translators: %s: error message from the server.
+#: includes/class-awb-admin.php:1224
+#, php-format
+msgid "Couldn’t reset progress: %s"
+msgstr ""
+
+#: includes/class-awb-player.php:184
+msgid "Guides"
+msgstr ""
+
+#: includes/class-awb-player.php:197
+msgid "Guided walkthroughs"
+msgstr ""
+
+#: includes/class-awb-player.php:211
+msgid "Manage walkthroughs"
+msgstr ""
+
+#: includes/class-awb-player.php:232
+msgid "Build walkthroughs on this screen"
+msgstr ""
+
+#: includes/class-awb-player.php:242
+msgid "+ New walkthrough"
+msgstr ""
+
+#: includes/class-awb-player.php:291
+msgid "Finished ✓"
+msgstr ""
+
+#. translators: 1: current step number, 2: total steps.
+#: includes/class-awb-player.php:301
+#, php-format
+msgid "In progress · %1$d/%2$d"
+msgstr ""
+
+#: includes/class-awb-player.php:314
+msgid "New"
+msgstr ""
+
+#: includes/class-awb-player.php:339
+#: includes/class-awb-tours.php:72
+msgid "Walkthrough"
+msgstr ""
+
+#: includes/class-awb-player.php:340
+#: includes/class-awb-player.php:510
+msgid "Next"
+msgstr ""
+
+#: includes/class-awb-player.php:341
+#: includes/class-awb-player.php:441
+#: includes/class-awb-player.php:511
+msgid "Back"
+msgstr ""
+
+#: includes/class-awb-player.php:342
+#: includes/class-awb-player.php:512
+msgid "Finish"
+msgstr ""
+
+#: includes/class-awb-player.php:343
+msgid "Skip"
+msgstr ""
+
+#: includes/class-awb-player.php:344
+msgid "Skip step"
+msgstr ""
+
+#: includes/class-awb-player.php:345
+msgid "Skip chapter"
+msgstr ""
+
+#: includes/class-awb-player.php:347
+msgid "All steps"
+msgstr ""
+
+#: includes/class-awb-player.php:348
+msgid "Minimize"
+msgstr ""
+
+#: includes/class-awb-player.php:349
+msgid "Exit"
+msgstr ""
+
+#: includes/class-awb-player.php:350
+msgid "Close the walkthrough"
+msgstr ""
+
+#: includes/class-awb-player.php:351
+msgid "Resume"
+msgstr ""
+
+#. translators: 1: walkthrough title, 2: current step number, 3: total steps.
+#: includes/class-awb-player.php:353
+#, php-format
+msgid "Resume ‘%1$s’ · %2$d/%3$d"
+msgstr ""
+
+#. translators: 1: current step number, 2: total steps.
+#: includes/class-awb-player.php:355
+#, php-format
+msgid "Step %1$d of %2$d"
+msgstr ""
+
+#. translators: 1: current step number, 2: total steps, 3: step title.
+#: includes/class-awb-player.php:357
+#, php-format
+msgid "Step %1$d of %2$d · %3$s"
+msgstr ""
+
+#. translators: 1: current step number, 2: total steps.
+#: includes/class-awb-player.php:359
+#: includes/class-awb-player.php:514
+#, php-format
+msgid "%1$d / %2$d"
+msgstr ""
+
+#. translators: 1: chapter number, 2: total chapters.
+#: includes/class-awb-player.php:361
+#, php-format
+msgid "Chapter %1$d of %2$d"
+msgstr ""
+
+#. translators: 1: chapter number, 2: chapter title.
+#: includes/class-awb-player.php:363
+#, php-format
+msgid "Chapter %1$d: %2$s"
+msgstr ""
+
+#. translators: 1: step number, 2: step title.
+#: includes/class-awb-player.php:369
+#, php-format
+msgid "Go to step %1$d: %2$s"
+msgstr ""
+
+#: includes/class-awb-player.php:371
+msgid "You are here"
+msgstr ""
+
+#: includes/class-awb-player.php:373
+msgid "Can’t find the item this step points at. It may be hidden right now, or this screen looks a little different."
+msgstr ""
+
+#: includes/class-awb-player.php:374
+msgid "This step is on another screen."
+msgstr ""
+
+#: includes/class-awb-player.php:375
+msgid "Take me there"
+msgstr ""
+
+#: includes/class-awb-player.php:376
+msgid "Click the highlighted item to continue"
+msgstr ""
+
+#: includes/class-awb-player.php:378
+msgid "Preview: progress isn’t saved."
+msgstr ""
+
+#: includes/class-awb-player.php:379
+msgid "This walkthrough couldn’t be loaded."
+msgstr ""
+
+#: includes/class-awb-player.php:380
+msgid "Finished"
+msgstr ""
+
+#: includes/class-awb-player.php:381
+msgid "You’re all done!"
+msgstr ""
+
+#. translators: %s: walkthrough title.
+#: includes/class-awb-player.php:383
+#, php-format
+msgid "You finished ‘%s’. Nice work."
+msgstr ""
+
+#: includes/class-awb-player.php:384
+msgid "What you covered"
+msgstr ""
+
+#: includes/class-awb-player.php:385
+msgid "Remind me to go over this again in"
+msgstr ""
+
+#. translators: %d: number of days.
+#: includes/class-awb-player.php:387
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/class-awb-player.php:388
+msgid "Remind me"
+msgstr ""
+
+#. translators: %d: number of days.
+#: includes/class-awb-player.php:390
+#, php-format
+msgid "Got it. You’ll get a reminder in %d days."
+msgstr ""
+
+#: includes/class-awb-player.php:391
+#: includes/class-awb-player.php:400
+msgid "Go through it again"
+msgstr ""
+
+#: includes/class-awb-player.php:393
+msgid "Time for a quick refresher?"
+msgstr ""
+
+#. translators: %s: walkthrough title.
+#: includes/class-awb-player.php:395
+#, php-format
+msgid "You went through ‘%s’ earlier today."
+msgstr ""
+
+#. translators: %s: walkthrough title.
+#: includes/class-awb-player.php:397
+#, php-format
+msgid "It’s been a day since you went through ‘%s’."
+msgstr ""
+
+#. translators: 1: number of days, 2: walkthrough title.
+#: includes/class-awb-player.php:399
+#, php-format
+msgid "It’s been %1$d days since you went through ‘%2$s’."
+msgstr ""
+
+#: includes/class-awb-player.php:401
+msgid "Later"
+msgstr ""
+
+#: includes/class-awb-player.php:402
+msgid "Don’t ask again"
+msgstr ""
+
+#: includes/class-awb-player.php:403
+msgid "You can pick it up again from Guides in the toolbar."
+msgstr ""
+
+#: includes/class-awb-player.php:404
+msgid "Okay, we’ll ask again in a few days."
+msgstr ""
+
+#: includes/class-awb-player.php:405
+msgid "Okay, we won’t ask again."
+msgstr ""
+
+#: includes/class-awb-player.php:406
+msgid "Walkthrough progress"
+msgstr ""
+
+#: includes/class-awb-player.php:417
+msgid "Walkthrough builder"
+msgstr ""
+
+#: includes/class-awb-player.php:418
+msgid "Drag to move the builder"
+msgstr ""
+
+#: includes/class-awb-player.php:419
+msgid "Collapse"
+msgstr ""
+
+#. translators: %s: step count text, e.g. "3 steps".
+#: includes/class-awb-player.php:422
+#, php-format
+msgid "Open the builder (%s)"
+msgstr ""
+
+#: includes/class-awb-player.php:424
+msgid "Leave build mode"
+msgstr ""
+
+#: includes/class-awb-player.php:425
+msgid "Build mode is off."
+msgstr ""
+
+#: includes/class-awb-player.php:426
+msgid "Open overview"
+msgstr ""
+
+#: includes/class-awb-player.php:428
+msgid "Name this walkthrough"
+msgstr ""
+
+#: includes/class-awb-player.php:429
+msgid "Untitled walkthrough"
+msgstr ""
+
+#: includes/class-awb-player.php:432
+msgid "Draft: click to set it live"
+msgstr ""
+
+#: includes/class-awb-player.php:433
+msgid "Live: click to switch it back to draft"
+msgstr ""
+
+#: includes/class-awb-player.php:434
+msgid "It’s live. The people you picked will see it."
+msgstr ""
+
+#: includes/class-awb-player.php:435
+msgid "Switched back to draft. Nobody sees it now."
+msgstr ""
+
+#: includes/class-awb-player.php:436
+msgid "Add step"
+msgstr ""
+
+#: includes/class-awb-player.php:437
+msgid "Bubble in the middle"
+msgstr ""
+
+#: includes/class-awb-player.php:440
+#: includes/class-awb-player.php:515
+msgid "Settings"
+msgstr ""
+
+#: includes/class-awb-player.php:442
+msgid "Chapters and steps"
+msgstr ""
+
+#: includes/class-awb-player.php:443
+#: includes/class-awb-player.php:501
+msgid "Chapter"
+msgstr ""
+
+#: includes/class-awb-player.php:444
+msgid "Add a chapter"
+msgstr ""
+
+#. translators: %s: chapter title.
+#: includes/class-awb-player.php:451
+#, php-format
+msgid "Show or hide the steps in ‘%s’"
+msgstr ""
+
+#: includes/class-awb-player.php:452
+msgid "New steps go here"
+msgstr ""
+
+#: includes/class-awb-player.php:453
+msgid "Add new steps to this chapter"
+msgstr ""
+
+#: includes/class-awb-player.php:454
+msgid "Delete chapter"
+msgstr ""
+
+#. translators: %s: chapter title.
+#: includes/class-awb-player.php:456
+#, php-format
+msgid "Delete the chapter ‘%s’? Its steps move to the previous chapter."
+msgstr ""
+
+#: includes/class-awb-player.php:457
+msgid "A walkthrough needs at least one chapter."
+msgstr ""
+
+#: includes/class-awb-player.php:458
+msgid "No steps in this chapter yet."
+msgstr ""
+
+#: includes/class-awb-player.php:459
+msgid "No steps yet. Press “Add step”, then click anything on the page."
+msgstr ""
+
+#. translators: %d: step number.
+#: includes/class-awb-player.php:461
+#, php-format
+msgid "Step %d"
+msgstr ""
+
+#: includes/class-awb-player.php:463
+msgid "On this screen"
+msgstr ""
+
+#. translators: %s: name of the screen the step is on.
+#: includes/class-awb-player.php:465
+#, php-format
+msgid "↗ %s"
+msgstr ""
+
+#: includes/class-awb-player.php:466
+msgid "↗ Another screen"
+msgstr ""
+
+#. translators: 1: new position of the step, 2: chapter title.
+#: includes/class-awb-player.php:469
+#, php-format
+msgid "Step moved to position %1$d in ‘%2$s’."
+msgstr ""
+
+#: includes/class-awb-player.php:474
+msgid "Go to screen…"
+msgstr ""
+
+#: includes/class-awb-player.php:477
+msgid "Browse normally to add steps on other screens — build mode follows you."
+msgstr ""
+
+#: includes/class-awb-player.php:478
+msgid "Click anything on the page… (Esc to cancel)"
+msgstr ""
+
+#: includes/class-awb-player.php:480
+msgid "That’s part of the builder. Pick something on the page instead."
+msgstr ""
+
+#: includes/class-awb-player.php:481
+msgid "Items inside the block editor’s canvas can’t be picked. Try the toolbar or sidebar instead."
+msgstr ""
+
+#: includes/class-awb-player.php:482
+msgid "Edit step"
+msgstr ""
+
+#: includes/class-awb-player.php:483
+msgid "Step title"
+msgstr ""
+
+#: includes/class-awb-player.php:484
+msgid "Write what this does…"
+msgstr ""
+
+#: includes/class-awb-player.php:490
+msgid "Remove link"
+msgstr ""
+
+#: includes/class-awb-player.php:491
+msgid "Where the bubble appears"
+msgstr ""
+
+#: includes/class-awb-player.php:493
+msgid "Above"
+msgstr ""
+
+#: includes/class-awb-player.php:495
+msgid "Below"
+msgstr ""
+
+#: includes/class-awb-player.php:497
+msgid "Drag to move the bubble around the element"
+msgstr ""
+
+#: includes/class-awb-player.php:498
+msgid "Moves on:"
+msgstr ""
+
+#: includes/class-awb-player.php:499
+msgid "Next button"
+msgstr ""
+
+#: includes/class-awb-player.php:500
+msgid "Click on element"
+msgstr ""
+
+#: includes/class-awb-player.php:502
+msgid "Change element"
+msgstr ""
+
+#: includes/class-awb-player.php:505
+msgid "Undo"
+msgstr ""
+
+#: includes/class-awb-player.php:508
+msgid "This bubble shows in the middle of the screen."
+msgstr ""
+
+#: includes/class-awb-player.php:509
+msgid "This step’s element isn’t on the screen right now. Use “Change element” to pick a new one."
+msgstr ""
+
+#: includes/class-awb-player.php:528
+msgid "Nobody will see this walkthrough yet. Pick a role or a person."
+msgstr ""
+
+#. translators: %s: error message from the server.
+#: includes/class-awb-player.php:543
+#, php-format
+msgid "Couldn’t save: %s"
+msgstr ""
+
+#: includes/class-awb-player.php:544
+msgid "Couldn’t reach the server, so the last change isn’t saved yet."
+msgstr ""
+
+#: includes/class-awb-player.php:545
+msgid "Retry"
+msgstr ""
+
+#: includes/class-awb-player.php:548
+msgid "Couldn’t load this walkthrough."
+msgstr ""
+
+#: includes/class-awb-player.php:549
+msgid "Couldn’t create the walkthrough. Please try again."
+msgstr ""
+
+#: includes/class-awb-player.php:550
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-awb-rest.php:184
+msgid "The walkthrough couldn’t be created."
+msgstr ""
+
+#: includes/class-awb-rest.php:262
+msgid "That step is not part of this walkthrough."
+msgstr ""
+
+#: includes/class-awb-rest.php:283
+msgid "Walkthrough not found."
+msgstr ""
+
+#: includes/class-awb-tours.php:73
+msgid "Add New Walkthrough"
+msgstr ""
+
+#: includes/class-awb-tours.php:74
+msgid "Edit Walkthrough"
+msgstr ""
+
+#: includes/class-awb-tours.php:75
+msgid "All Walkthroughs"
+msgstr ""
+
+#: includes/class-awb-tours.php:76
+msgid "No walkthroughs found."
+msgstr ""
+
+#: includes/class-awb-tours.php:170
+msgid "New walkthrough"
+msgstr ""
